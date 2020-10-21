@@ -129,6 +129,7 @@ def check_col():
   return
 
 def check_dia():
+  global is_game_on
   dia1 = board[0]==board[4]==board[8] != "-"
   dia2 = board[2]==board[4]==board[6] != "-"
   
